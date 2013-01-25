@@ -1,11 +1,11 @@
 require 'formula'
 
 class GithubIssues < Formula
-	homepage 'https://github.com/tomaszdurka/github-issues'
-	url 'https://github.com/tomaszdurka/github-issues/archive/version1.zip'
-	sha1 'f539630b9306da9f952fe0527546570a5248ce3a'
-	head 'https://github.com/tomaszdurka/github-issues.git'
-	version '0.0.1'
+	homepage 'https://github.com/cargomedia/github-issues'
+	url 'https://github.com/cargomedia/github-issues/archive/1.0.zip'
+	sha1 '8dd4e5a16be10b3fcf802da34b03119002c188a0'
+	head 'https://github.com/cargomedia/github-issues.git'
+	version '1.0'
 
 	depends_on 'ghi'
 	depends_on 'coreutils'
