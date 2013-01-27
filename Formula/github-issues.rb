@@ -8,6 +8,7 @@ class GithubIssues < Formula
 	version '1.0'
 
 	depends_on 'ghi'
+	depends_on 'hub'
 	depends_on 'coreutils'
 
 	def install
