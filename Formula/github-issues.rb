@@ -10,6 +10,7 @@ class GithubIssues < Formula
 	depends_on 'ghi'
 	depends_on 'hub'
 	depends_on 'coreutils'
+	depends_on 'moreutils'
 
 	def install
 		prefix.install Dir["*"]
