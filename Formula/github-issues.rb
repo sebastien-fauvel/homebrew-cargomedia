@@ -2,10 +2,10 @@ require 'formula'
 
 class GithubIssues < Formula
 	homepage 'https://github.com/cargomedia/github-issues'
-	url 'https://github.com/cargomedia/github-issues/archive/1.1.zip'
-	sha1 'a31f2a2c1363a4021e99d7777cb1f774cb859826'
+	url 'https://github.com/cargomedia/github-issues/archive/1.1.1.zip'
+	sha1 '4a3766a7c68ad210be9dcf28c0d8aae69a7abb14'
 	head 'https://github.com/cargomedia/github-issues.git'
-	version '1.1'
+	version '1.1.1'
 
 	depends_on 'ghi'
 	depends_on 'hub'
