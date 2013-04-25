@@ -2,9 +2,9 @@ require 'formula'
 
 class Ghi < Formula
 	homepage 'https://github.com/stephencelis/ghi'
-	url 'https://github.com/stephencelis/ghi/archive/0.9.0.20130424.tar.gz'
-	version '0.9.0.20130424'
-	sha1 '00c402ab1336667a8b7aefff6761e11273d07ed5'
+	url 'https://github.com/stephencelis/ghi/archive/0.9.0.201304025.tar.gz'
+	version '0.9.0.201304025'
+	sha1 '5c950763cc20da19d3b493e1f9c2b03cfa320f01'
 
 	def install
 		man1.install 'man/ghi.1'
