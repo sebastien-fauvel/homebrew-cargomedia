@@ -3,7 +3,7 @@ require 'formula'
 class GithubIssues < Formula
 	homepage 'https://github.com/cargomedia/github-issues'
 	url 'https://github.com/cargomedia/github-issues/archive/1.2.zip'
-	sha1 'aaf11d2be8dff5d2ce59206c831498466dc0dd64'
+	sha256 'ea37ce48ce363068ed7e23ea5b60138085f04aa433f7b0bd45b30ac6dac0ba62'
 	head 'https://github.com/cargomedia/github-issues.git'
 	version '1.2'
 
